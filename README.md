@@ -20,7 +20,12 @@ Run debug with:
 
 - `input_file`: Text file with mips assembly code
 
-**Example:**
+**Examples:**
 
 ./mips_sim input
+
 ./mips_sim a.asm
+
+./mips_sim input --debug
+
+./mips_sim a.asm --debug
